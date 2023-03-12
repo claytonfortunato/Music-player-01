@@ -14,3 +14,5 @@ export const Info = styled.div`
   align-items: center;
   gap: 1.8rem;
 `;
+
+export const Title = styled.div``;
