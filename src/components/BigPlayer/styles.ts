@@ -34,4 +34,23 @@ export const Title = styled.div`
   }
 `;
 
-export const Pause = styled.div``;
+export const Pause = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+`;
+
+export const Progress = styled.div``;
+
+export const Time = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    color: #c4c4cc;
+    opacity: 70%;
+  }
+`;
