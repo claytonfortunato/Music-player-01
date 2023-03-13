@@ -13,6 +13,25 @@ export const Info = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1.8rem;
+
+  img {
+    max-width: 5.25rem;
+    max-height: 5.25rem;
+  }
 `;
 
-export const Title = styled.div``;
+export const Title = styled.div`
+  h1 {
+    color: #e1e1e6;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    color: #e1e1e6;
+    font-size: 1.2rem;
+    opacity: 80%;
+  }
+`;
+
+export const Pause = styled.div``;
