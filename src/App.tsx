@@ -1,10 +1,14 @@
 import BigPlayer from "./components/BigPlayer";
+import { LongPlayer } from "./components/LongPlayer";
 
 const App = () => {
   return (
-    <div>
-      <BigPlayer />
-    </div>
+    <C.Container>
+      <LongPlayer />
+      <div>
+        <BigPlayer />
+      </div>
+    </C.Container>
   );
 };
 
