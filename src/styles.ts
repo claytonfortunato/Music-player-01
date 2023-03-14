@@ -7,6 +7,11 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   gap: 2rem;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    height: 100%;
+  }
 `;
 
 export const SmallPlay = styled.div`
