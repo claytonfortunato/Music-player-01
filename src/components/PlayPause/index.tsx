@@ -1,4 +1,4 @@
-import Play from "../../assets/Play.svg";
+import Play from "../../assets/play.svg";
 import PlayRewind from "../../assets/play-rewind.svg";
 import PlayForward from "../../assets/play-forward.svg";
 
